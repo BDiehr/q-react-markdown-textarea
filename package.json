@@ -1,0 +1,88 @@
+{
+  "name": "q-react-markdown-textarea",
+  "description": "React component that has an auto-resizing textarea with built-in preview. Inspired by Github's comment-box.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Brian Diehr",
+    "email": "btdiehr@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/BDiehr/q-react-markdown-textarea"
+  },
+  "dependencies": {
+    "classnames": "^1.1.4",
+    "marked": "^0.3.3",
+    "object-assign": "^2.0.0",
+    "react-textarea-autosize": "^1.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "coffee-react": "^2.4.1",
+    "coffee-react-transform": "^2.4.0",
+    "coffee-reactify": "^2.4.1",
+    "coffee-script": "^1.9.1",
+    "coffeeify": "^1.0.0",
+    "gulp": "^3.8.11",
+    "gulp-browserify": "^0.5.1",
+    "gulp-compass": "^2.0.3",
+    "gulp-connect": "^2.2.0",
+    "gulp-if": "^1.2.5",
+    "gulp-load-plugins": "^0.8.1",
+    "gulp-rename": "^1.2.0",
+    "gulp-size": "^1.2.1",
+    "gulp-uglify": "^1.1.0",
+    "jest-cli": "^0.4.0",
+    "open": "0.0.5",
+    "react": "^0.12.2",
+    "react-spinner": "^0.2.1",
+    "reactify": "^1.0.0",
+    "underscore": "^1.8.2",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^2.4.0"
+  },
+  "homepage": "https://github.com/BDiehr/q-react-markdown-textarea",
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react"
+    ],
+    "testFileExtensions": [
+      "coffee",
+      "js",
+      "cjsx"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "coffee",
+      "cjsx"
+    ]
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "autosize",
+    "textarea",
+    "markdown"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "peerDependencies": {
+    "react-tools": ">=0.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BDiehr/q-react-markdown-textarea"
+  },
+  "scripts": {
+    "build": "cult build",
+    "build-prod": "NODE_ENV=production cult build",
+    "test": "jest"
+  },
+  "maintainers": [
+    {
+      "name": "Brian Diehr",
+      "email": "btdiehr@gmail.com"
+    }
+  ]
+}
